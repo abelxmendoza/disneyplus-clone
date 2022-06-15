@@ -79,14 +79,18 @@ const NavMenu = styled.div`
    display: flex;
    flex: 1;
    margin-left: 25px;
+   align-items: center;
+   cursor: pointer;
 
     a {
         display: flex;
         align-items: center;
         padding: 0 12px;
+        cursor: pointer;
 
         img {
             height: 20px;
+            //margin-right: 5px;
         }
 
         span {
@@ -98,7 +102,7 @@ const NavMenu = styled.div`
             &:after {
 
                 content: "";
-                height: 10px;
+                height: 2px;
                 background: white;
                 position: absolute;
                 top: 0;
