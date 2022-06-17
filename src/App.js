@@ -10,6 +10,7 @@ import {
   
 } from "react-router-dom";
 
+import Login from './components/Login';
 
 
 
@@ -20,6 +21,9 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path = "/login">
+            <Login />
+          </Route>
           <Route path="/detail">
             <Detail />
           </Route>

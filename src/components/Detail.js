@@ -82,6 +82,7 @@ const ImageTitle = styled.div`
     min-height: 170px;
     width: 35vh;
     min-width: 200px;
+    margin-top: 60px;
 
     img {
 
@@ -160,13 +161,17 @@ const SubTitle = styled.div`
     font-size: 15px;
     min-height: 20px;
     margin-top: 26px;
+    margin-bottom: 26px;
 
 `
 
 const Description = styled.div`
     line-height: 1.4;
     font-size: 20px;
-    color: rgb(249, 249, 249)
+    color: rgb(249, 249, 249);
+    max-width: 760px;
+
+
 `
 
 
